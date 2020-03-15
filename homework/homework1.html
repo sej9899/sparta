@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+
+    <style type="text/css">
+        body { line-height:0.5em; }
+    </style>
+
+<style>
+    .card-title1{
+        margin-top: 5px;
+        font-family: 'Yeon Sung', cursive;
+    }
+</style>
+
+<style>
+    .card-price{
+        margin-top: 6.5px;
+    }
+</style>
+
+
+    <title>Cotton Fabric_pattern</title>
+    <style>
+        .card {
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
+        }
+    </style>
+
+<style>
+    .card-title2 {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    line-height: 1.5em;
+    margin-top: 1px;
+    font-family: 'Noto Serif KR', serif; 
+    }
+</style>
+
+<style>
+    .card-text {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0em; 
+    }
+</style>
+
+<style>
+    .info { 
+        font-size: 11px;
+        margin-top: 40px;
+    }
+</style>
+
+<style>
+    .button { 
+        font-size: 12.7px;
+        float: center;
+        margin-top: 4px;
+        margin-left: 123px;
+    }
+</style>
+
+</head>
+
+<body>
+    <!-- head에 있는 style의 ."이름"과 div class="이름"이 같아야 head의 style이 body에 적용된다
+    여기서는 "이름"이 "card" -->
+    <div class="card" style="width: outo;">
+        <img class="card-img-top" src="./4.jpg" width=350, height=350 alt="Card image cap">
+        <div class="card-body">
+            <p>
+                
+                <div style="card-title1; float:left; margin-right:15px;">
+                    <h3 class="card-title1">Cotton Fabric_pattern </h3>
+                </div>
+                 
+                <div style="card-price; float:right">
+                    <h5 class="card-price">Price 18,000won/마</h5>  
+                </div>  
+            </p>
+        </div>
+         
+        <div class="card-body">
+            <p>
+                <h5 class="card-title2">The Shapes는 무늬의 아름다움을 담아 냅니다.</h5>
+                  <h6 class="card-text">color blue&purple</h6>
+                  <h6 class="card-text">cotton 100%</h6>
+                  <h6 class="card-text">from India</h6>
+              </p>
+    
+              <div class="info">
+                <p>
+                    주문자 이름 
+                    <input type="text">
+                  </p>
+                  <p>
+                    수량(마) 
+                    <input type="number">   
+                  </p>
+                  <p>
+                    주소 
+                    <input type="text">  
+                  </p>
+                  <p>
+                    전화번호 
+                    <input type="text">   
+                  </p>
+              </div>
+              <button class="button">주문하기</button>
+        </div>
+    
+    </div> 
+</body>
+</html>
